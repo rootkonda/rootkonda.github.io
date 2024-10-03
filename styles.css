@@ -130,6 +130,39 @@ header p {
   font-size: 1rem;
 }
 
+#certifications {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #certifications h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .certification-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .certification-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #282c34;
+    color: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .certification-list li:hover {
+    background-color: #61dafb;
+  }
+  
 /* Contact */
 #contact {
   background-color: #61dafb;
