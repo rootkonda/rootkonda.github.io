@@ -64,9 +64,7 @@ header p {
 }
 
 #about ul {
-    list-style-type: disc;
-    margin-top: 20px;
-    padding-left: 40px;
+    list-style-type: none;
 }
   
 #about li {
