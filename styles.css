@@ -82,6 +82,35 @@ header p {
 	top: 0;
 }
 
+/* Mobile view styling */
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    #skills .skill-grid {
+      grid-template-columns: 1fr; /* One column for mobile */
+    }
+  
+    .btn {
+      padding: 12px 24px;
+      font-size: 1rem;
+    }
+  
+    /* Adjust font size and padding for better mobile fit */
+    body {
+      font-size: 16px;
+    }
+  
+    #about, #experience, #skills, #contact {
+      padding: 40px 0;
+    }
+  }
+
 .wrapper .track {
 	display: flex;
 	width: calc(150px * 10);
